@@ -3,6 +3,7 @@
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 5px 2px lightgray;
+  position: sticky;
 }
 
 .topnav a {
@@ -33,6 +34,12 @@
   margin: 0px 30px;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+
 #projects {
   background-color: bisque;
   margin: 0px 30px;
@@ -53,4 +60,10 @@
 
 #contentPadding p {
   margin-left: 30px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
