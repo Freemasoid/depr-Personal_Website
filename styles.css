@@ -4,6 +4,7 @@
   border-radius: 10px;
   box-shadow: 5px 5px 2px lightgray;
   position: sticky;
+  margin: 0 10px;
 }
 
 .topnav a {
@@ -29,6 +30,25 @@
   border-radius: 10px;
 }
 
+header {
+  margin: 0 30px;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #00162d;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #f2f2f2;
+  font-family: "Changa", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
 #aboutMe {
   background-color: aqua;
   margin: 0px 30px;
@@ -41,20 +61,19 @@
 }
 
 #projects {
-  background-color: bisque;
   margin: 0px 30px;
 }
 
 .project {
-  background-color: white;
+  background-color: #e4c38e;
   height: 200px;
   width: 200px;
   border-radius: 10px;
-  box-shadow: 5px 5px 2px lightgray;
   display: flex;
   justify-content: top;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .project button {
@@ -70,8 +89,7 @@
 }
 
 #skills {
-  background-color: palegreen;
-  margin: 0px 30px;
+  margin: 0px 30px 30px 30px;
 }
 
 .skills_img {
@@ -81,11 +99,7 @@
 
 .skills_img img {
   width: 12%;
-}
-
-#skills p {
-  text-align: center;
-  font-size: 25px;
+  filter: drop-shadow(0 0 12px #96d7ff);
 }
 
 .box {
@@ -109,5 +123,5 @@
   width: 100%;
   height: 25px;
   border-radius: 125px/12px;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 10px white;
 }
