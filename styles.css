@@ -467,24 +467,31 @@ h2 {
   }
 
   .aboutMe .box .about {
-    max-width: 545px;
+    max-width: 520px;
+    overflow: hidden;
   }
 }
 
 @media only screen and (max-width: 545px) {
   .aboutMe .box .about {
-    max-width: 500px;
+    max-width: 470px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .aboutMe .box .about {
+    max-width: 420px;
   }
 }
 
 @media only screen and (max-width: 414px) {
   .aboutMe .box .about {
-    max-width: 405px;
+    max-width: 390px;
   }
 }
 
 @media only screen and (max-width: 390px) {
   .aboutMe .box .about {
-    max-width: 370px;
+    max-width: 350px;
   }
 }
