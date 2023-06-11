@@ -4,73 +4,86 @@
   <head>
     <title>Personal Website</title>
     <link href="styles.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <header>
-      <h1>Personal Website</h1>
-    </header>
-
-    <div class="s-divider">
-      <div class="shadow"></div>
-      <div class="text2"><img src="images/pattern.png" /></div>
-    </div>
 
     <!--Navbar-->
     <div class="navbar">
       <div class="topnav">
-        <a class="active" href="#aboutMe">About Me</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#skills">Skills</a>
-        <a href="contact.html">Contact</a>
+        <a class="active" href="#aboutMe">ABOUT ME</a>
+        <a href="index.html#projects">PROJECTS</a>
+        <a href="index.html#skills">SKILLS</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="front-name">
+      <div class="name-container">
+        <div class="name1">
+          <p>PERSONAL</p>
+        </div>
+
+        <div class="parallelogram"></div>
+
+        <div class="name2">
+          <p>WEBSITE</p>
+        </div>
       </div>
     </div>
 
     <!--About Me section-->
-    <div id="aboutMe">
-      <h2>ABOUT ME</h2>
+    <div class="aboutMe" id="aboutMe">
+      <div class="s-divider">
+        <div class="shadow"></div>
+      </div>
       <div class="box">
         <div class="about">
-          <img src="images/sticky.png" alt="sticky note" />
+          <h2>ABOUT ME</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="about">
-          <img src="images/polaroid.png" alt="photo" />
+          <div class="about-image">
+            <img src="images/polaroid.png" alt="photo" />
+          </div>
         </div>
       </div>
     </div>
-
+    
     <!--Section Divider-->
     <div class="s-divider"></div>
 
     <!--Projects Section-->
-    <div id="projects">
+    <div class="projects" id="projects">
       <h2>PROJECTS</h2>
+      
       <div class="box">
         <div class="project">
-          <div class="prj_img"><p>WEB IMAGE</p></div>
+          <div class="prj_img">
+            <img src="images/tea-cosy.png" alt="web_image">
+          </div>
           <p>Fictional Tea Shop Website</p>
           <div class="button_proj">
-            <button class="button">WEB</button>
-            <button class="button">SOURCE</button>
+            <a href="https://freemasoid.github.io/Tea-Cosy/">
+              <button class="button">WEB</button>
+            </a>
+            <a href="https://github.com/Freemasoid/Tea-Cosy.git">
+              <button class="button" url>SOURCE</button>
+            </a>
           </div>
         </div>
+
         <div class="project">
           <div class="prj_img">
-            <img src="/images/random.png" alt="web_image" />
+            <img src="images/sky-thunder.png" alt="web_image">
           </div>
-          <p>Random message generator. Displays message based on dice value after roll.</p>
-          <div class="button_proj">
-            <button class="button">SOURCE</button>
-          </div>
-        </div>
-        <div class="project">
-          <div class="prj_img"><p>WEB IMAGE</p></div>
           <p>
             Flexbox and responsive design practice.<br />
             Airline Website.
           </p>
           <div class="button_proj">
-            <a>
+            <a href="https://freemasoid.github.io/Company_Website/">
               <button class="button">WEB</button>
             </a>
             <a href="https://github.com/Freemasoid/Company_Website.git">
@@ -78,6 +91,35 @@
             </a>
           </div>
         </div>
+      </div>
+
+      <div class="box">
+        <div class="project">
+          <div class="prj_img">
+            <img src="images/random.png" alt="web_image" />
+          </div>
+          <p>Random message generator. Displays message based on dice value after roll.</p>
+          <div class="button_proj">
+            <a href="https://github.com/Freemasoid/Random_Message.git">
+              <button class="button" url>SOURCE</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="prj_img"><p>WEB IMAGE</p></div>
+          <p>
+            To be continued...
+          </p>
+          <div class="button_proj">
+            <a>
+              <button class="button">WEB</button>
+            </a>
+            <a >
+              <button class="button" url>SOURCE</button>
+            </a>
+          </div>
+
       </div>
     </div>
 
@@ -96,5 +138,6 @@
         <img src="images/Python_logo.png" alt="Python_logo" />
       </div>
     </div>
+    <script src="main.js" defer></script>
   </body>
 </html>
