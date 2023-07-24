@@ -4,7 +4,7 @@ window.addEventListener("scroll", reveal);
 
 function reveal() {
   console.log(window.scrollY);
-  if (window.scrollY >= 40) {
+  if (window.scrollY >= 60) {
     element.style.opacity = 1;
   }
 }
@@ -15,7 +15,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
